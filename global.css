@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6f2; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Form styling */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    min-width: 300px;
+}
+
+/* Table styling */
+table {
+    margin: 10px auto; /* Center tables */
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center; /* Center text inside table cells */
+    padding: 10px;
+}
+
+/* File Input Styling */
+input[type="file"] {
+    display: block;
+    margin: 10px auto; /* Center file input */
+    border: none;
+    background: none;
+}
+
+/* Button */
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: palevioletred; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+/* Results section */
+.result-container {
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffccd5; 
+    border-radius: 15px;
+    width: 50%;
+    min-width: 300px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Love Table Styling */
+.love-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+}
+
+.love-table td {
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Text alignment for love table thingy */
+.name-left {
+    color: #ff4d6d; 
+    text-align: left;
+}
+
+.name-right {
+    color: #ff4d6d;
+    text-align: right;
+}
+
+.heart {
+    text-align: center;
+    font-size: 30px;
+}
