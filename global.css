@@ -34,7 +34,7 @@ td {
     padding: 10px;
 }
 
-/* File Input Styling */
+/* File input styling */
 input[type="file"] {
     display: block;
     margin: 10px auto; /* Center file input */
@@ -67,7 +67,7 @@ button {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Love Table Styling */
+/* Love table styling */
 .love-table {
     width: 100%;
     border-collapse: collapse;
